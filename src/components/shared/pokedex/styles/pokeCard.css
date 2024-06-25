@@ -1,0 +1,117 @@
+.pokecard {
+    position: relative;
+    overflow: hidden;
+    background-color: rgba(181, 177, 170, 0.468);
+    width: 250px;
+    border: 4px solid rgba(87, 75, 75, 0.614);
+    border-radius: 15px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s;
+}
+.pokecard:hover {
+    transform: scale(1.1);
+    transition: transform 0.2s
+}
+
+.pokecard_back {
+    background-color: rgb(47, 44, 44);
+    width: 100%;
+    height: 100px;
+}
+
+.pokecard_img {
+    width: 70%;
+    position: absolute;
+}
+
+.pokecard_name {
+    padding-top: 60px;
+}
+
+.pokecard_types {
+    margin: 5px 0;
+    display: flex;
+}
+
+.pokecard_hr {
+    width: 90%;
+    margin: 10px 0;
+    border-color: #a09a9a2f;
+}
+
+.pokecard_stats {
+    padding-bottom: 10px;
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    gap: 10px;
+}
+.pokecard_stats li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.slot2::before {
+    content: "/";
+    margin: 0 5px;
+}
+
+/*================= colores por tipos ================*/
+.grass {
+    background-color: rgb(9, 224, 9);
+}
+
+.fire {
+    background-color: red;
+}
+
+.water {
+    background-color: blue;
+}
+
+.normal {
+    background-color: orange;
+}
+
+.fighting {
+    background-color: rgb(4, 4, 88);
+}
+
+.ground {
+    background-color: rgba(149, 53, 53, 0.797);
+}
+
+.rock {
+    background-color: rgb(101, 100, 100);
+}
+
+.bug {
+    background-color: rgb(160, 241, 68);
+}
+
+.ghost {
+    background-color: purple;
+}
+
+.electric {
+    background-color: rgb(170, 174, 84);
+}
+
+.psychic {
+    background-color: rgb(95, 95, 226);
+}
+
+.ice {
+    background-color: rgba(4, 252, 248, 0.736);
+}
+
+.poison {
+    background-color: rgb(69, 4, 130);
+}

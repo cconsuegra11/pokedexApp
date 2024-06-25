@@ -1,0 +1,40 @@
+.pokefotter {
+    width: 100%;    
+}
+
+.pokefotter_red {
+    position: relative;
+    background-color: red;
+    height: 60px;
+}
+
+.pokefotter_black {
+    position: relative;
+    background-color: black;
+    height: 30px;
+}
+
+.pokefotter_outcircle {
+    position: absolute;
+    top: 50%;
+    left: 42%;
+    transform: translateY(-90%);
+    right: 10%;
+    width: 60px;
+    background-color: white;
+    border: 4px solid black;
+    border-radius: 50%;
+    aspect-ratio: 1;
+}
+
+.pokefotter_incircle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30px;
+    aspect-ratio: 1;
+    background-color: gray;
+    border: 4px solid black;
+    border-radius: 50%;
+}
